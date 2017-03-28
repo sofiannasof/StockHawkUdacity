@@ -31,14 +31,14 @@ public final class Contract {
         public static final int POSITION_ABSOLUTE_CHANGE = 3;
         public static final int POSITION_PERCENTAGE_CHANGE = 4;
         public static final int POSITION_HISTORY = 5;
-        public static final ImmutableList<String> QUOTE_COLUMNS = ImmutableList.of(
+        public static final String[] QUOTE_COLUMNS = {
                 _ID,
                 COLUMN_SYMBOL,
                 COLUMN_PRICE,
                 COLUMN_ABSOLUTE_CHANGE,
                 COLUMN_PERCENTAGE_CHANGE,
                 COLUMN_HISTORY
-        );
+        };
         static final String TABLE_NAME = "quotes";
 
         public static Uri makeUriForStock(String symbol) {

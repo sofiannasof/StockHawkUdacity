@@ -87,7 +87,6 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
             }
         }).attachToRecyclerView(stockRecyclerView);
 
-        showSnackBar();
     }
 
     private void showSnackBar() {
@@ -154,7 +153,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
     public Loader<Cursor> onCreateLoader(int id, Bundle args) {
         return new CursorLoader(this,
                 Contract.Quote.URI,
-                Contract.Quote.QUOTE_COLUMNS.toArray(new String[]{}),
+                Contract.Quote.QUOTE_COLUMNS,
                 null, null, Contract.Quote.COLUMN_SYMBOL);
     }
 

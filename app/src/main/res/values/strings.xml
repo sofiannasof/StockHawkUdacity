@@ -32,5 +32,8 @@
     <string name="toast_stock_added_no_connectivity">Symbol %s added. Will refresh when network available.</string>
     <string name="toast_no_connectivity">Will refresh when network available.</string>
     <string name="try_again">Try again</string>
+    <string name="empty_list">Stock information currently is not available.</string>
+    <string name="widget_label">Stock Details</string>
+    <string name="widget">Stock hawk widget</string>
 
 </resources>
