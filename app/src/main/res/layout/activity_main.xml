@@ -32,7 +32,8 @@
         app:borderWidth="0dp"
         app:elevation="6dp"
         app:fabSize="normal"
-        app:pressedTranslationZ="12dp" />
+        app:pressedTranslationZ="12dp"
+        android:contentDescription="@string/desc_fab_desc"/>
 
     <TextView
         android:id="@+id/error"

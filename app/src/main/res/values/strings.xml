@@ -19,8 +19,9 @@
 
 
     <string name="action_change_units">@string/pref_display_mode_key</string>
+    <string name="desc_change_units">Press button to change units</string>
 
-
+    <string name="desc_fab_desc">Press button to add stock</string>
     <string name="dialog_title">Add Stock</string>
     <string name="dialog_hint">Symbol (e.g. GOOG)</string>
     <string name="dialog_cancel">Cancel</string>
